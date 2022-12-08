@@ -1,0 +1,85 @@
+@font-face {
+        font-family: "Baskerville";
+        src: url("./NewBaskervilleITCbyBT-Black.otf");
+      }
+html{
+  margin: 90px;
+}
+body {
+  background-color: #c8c8c8;
+  font-family:'Roboto', sans-serif;
+
+  
+}
+h1{
+  color: #000;
+  text-align: center;
+  font-size: 6em;
+}
+h1, h2{
+  font-family: 'Baskerville', serif;
+}
+/* .p1Bold{
+  font-weight: bold;
+} */
+.lien{
+  color: #cf0025;
+}
+h2{
+  color: #cf0025;
+  font-weight: bold;
+  font-size: 2em;
+}
+h3{
+  color: #cf0025;
+  font-weight: bold;
+  font-size: 24px;
+}
+  
+table{
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+}
+th{
+  background-color: #333333 ;
+  color: #deddda;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+tr, td{
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color: #deddda;
+}
+
+tr:hover{
+  background-color:#999999;
+  cursor: pointer;
+}
+div .img{
+  border: 2px #cf0025 solid;
+  border-radius: 7px;
+  background-color:#333333;
+  padding:30px 30px 35px 30px;
+  margin-top: 20px;
+  
+  
+}
+.img p{
+  color:white;
+  text-align: center;
+}
+img{
+  width: 100%;
+}
+.pTcp{
+  color:#4e41ae;
+  border: 2px #4e41ae dashed;
+  font-size: 18px;
+  padding:15px;
+  background-color:#b7b7b7;
+}
